@@ -1,0 +1,140 @@
+stk.v.13.0
+WrittenBy    STK_v13.1.0
+BEGIN Access
+    Scenario/STK_Cert_RohanPatel_V13/Aircraft/CertAircraft
+    Scenario/STK_Cert_RohanPatel_V13/AreaTarget/Runway
+
+    IsAnonymous		 Yes
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN Constraints
+
+        BaseConstraintsSource		 UseInstConstraints
+        TargetConstraintsSource		 UseInstConstraints
+
+    END Constraints
+
+
+    BEGIN ConsideredIntervals
+
+        2011-10-28T18:54:00.000000000 2011-10-28T19:41:32.226144460
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2011-10-28T18:54:00.000000000 2011-10-28T19:41:32.226144460
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2011-10-28T18:54:00.000000000 2011-10-28T19:41:32.226144460
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2011-10-28T18:54:00.000000000 2011-10-28T19:41:32.226144460
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.105
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 ElevationAngle
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ConData		  2.0000000000000000e+00
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2011-10-28T18:54:00.000000000 2011-10-28T19:41:32.226144460
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2011-10-28T18:54:00.000000000 2011-10-28T19:41:32.226144460
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+    LineStyle		 0
+    ColorMode		 ObjectColors
+    Color		 65280
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+

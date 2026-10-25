@@ -1,0 +1,645 @@
+2026-10-09 17:45:43,945 INFO TRACK Env -> In progress 
+2026-10-09 17:45:43,985 INFO no running STK, starting one
+2026-10-09 17:46:05,410 INFO CONNECT> GetLicenses /
+2026-10-09 17:46:05,454 INFO TRACK Env -> Needs verification license output printed, review manually
+2026-10-09 17:46:05,454 INFO environment_check done
+2026-10-09 17:47:11,704 INFO TRACK Env -> Verified STK 13.1.0.739 via PySTK+Connect; Pro demo license (8d left); Premium excluded
+2026-10-09 17:50:36,870 INFO attached pid 27612, STK 13.1.0.739
+2026-10-09 17:50:36,870 INFO TRACK Scenario -> In progress pid 27612, STK 13.1.0.739
+2026-10-09 17:50:36,898 INFO TRACK Terrain -> In progress 
+2026-10-09 17:51:23,741 INFO CONNECT> AllInstanceNames /
+2026-10-09 17:51:23,813 INFO CONNECT> GetAnalysisTimePeriod *
+2026-10-09 17:51:47,671 INFO CONNECT> AllInstanceNames /
+2026-10-09 17:52:09,453 INFO CONNECT> TerrainServer_RM / Server
+2026-10-09 17:52:09,461 INFO CONNECT> TerrainServer_RM / Tileset
+2026-10-09 17:52:32,686 INFO attached pid 27612, STK 13.1.0.739
+2026-10-09 17:52:32,703 INFO TRACK Scenario -> In progress pid 27612, STK 13.1.0.739
+2026-10-09 17:52:32,728 INFO TRACK Terrain -> In progress 
+2026-10-09 17:52:32,825 WARNING UseTerrainServerForAnalysis setter refused: Cannot modify read-only attribute
+2026-10-09 17:52:34,482 INFO CONNECT> TerrainServer_RM / Server
+2026-10-09 17:52:34,512 INFO TRACK Scenario -> Needs verification API readback ok
+2026-10-09 17:52:34,533 INFO TRACK Terrain -> Needs verification API readback ok
+2026-10-09 17:52:34,554 INFO TRACK Saved -> Needs verification C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13\STK_Cert_RohanPatel_V13.sc
+2026-10-09 17:53:14,829 INFO TRACK Scenario -> Verified name + 18:54-23:54 confirmed in saved .sc and live API
+2026-10-09 17:53:14,859 INFO TRACK Terrain -> Needs verification off in API+.sc (setter read-only); confirm GUI checkbox
+2026-10-09 17:53:14,875 INFO TRACK Saved -> Needs verification STK_Cert_RohanPatel_V13.sc exists; re-save after Runway/Places/T1-T3
+2026-10-09 17:58:02,648 INFO attached pid 27612, STK 13.1.0.739
+2026-10-09 17:58:02,648 INFO TRACK Scenario -> In progress pid 27612, STK 13.1.0.739
+2026-10-09 17:58:02,662 INFO TRACK Terrain -> In progress 
+2026-10-09 17:58:03,609 WARNING UseTerrainServerForAnalysis setter refused: Cannot modify read-only attribute
+2026-10-09 17:58:03,637 INFO TRACK Runway -> In progress 
+2026-10-09 17:58:47,969 INFO attached pid 27612, STK 13.1.0.739
+2026-10-09 17:58:48,028 INFO TRACK Scenario -> In progress pid 27612, STK 13.1.0.739
+2026-10-09 17:58:48,044 INFO TRACK Terrain -> In progress 
+2026-10-09 17:58:49,039 WARNING UseTerrainServerForAnalysis setter refused: Cannot modify read-only attribute
+2026-10-09 17:58:49,081 INFO TRACK Runway -> In progress 
+2026-10-09 17:58:49,930 INFO TRACK Runway -> Needs verification API readback ok
+2026-10-09 17:59:10,664 INFO TRACK Scenario -> Verified name + 18:54-23:54 confirmed in saved .sc and live API
+2026-10-09 17:59:10,678 INFO TRACK Terrain -> Needs verification off in API+.sc (setter read-only); confirm GUI checkbox
+2026-10-09 17:59:10,697 INFO TRACK Runway -> Verified 4 vertices in order + ElevationAngle 2.0 in API and saved Runway.at
+2026-10-09 17:59:10,722 INFO TRACK Saved -> Needs verification STK_Cert_RohanPatel_V13.sc exists; re-save after Places/T1-T3
+2026-10-09 18:08:20,387 INFO attached pid 27612, STK 13.1.0.739
+2026-10-09 18:08:20,387 INFO TRACK Scenario -> In progress pid 27612, STK 13.1.0.739
+2026-10-09 18:08:20,419 INFO TRACK Terrain -> In progress 
+2026-10-09 18:08:21,356 WARNING UseTerrainServerForAnalysis setter refused: Cannot modify read-only attribute
+2026-10-09 18:08:21,387 INFO TRACK Places -> In progress 
+2026-10-09 18:08:22,540 INFO TRACK Places -> Needs verification API readback ok
+2026-10-09 18:09:26,292 INFO attached pid 27612, STK 13.1.0.739
+2026-10-09 18:09:26,319 INFO TRACK Scenario -> In progress pid 27612, STK 13.1.0.739
+2026-10-09 18:09:26,341 INFO TRACK Terrain -> In progress 
+2026-10-09 18:09:27,349 WARNING UseTerrainServerForAnalysis setter refused: Cannot modify read-only attribute
+2026-10-09 18:09:27,367 INFO TRACK T2 Ica lighting timeline -> In progress 
+2026-10-09 18:09:27,367 INFO CONNECT> Timeline * TimeComponent Remove ContentView "Scenario Availability" "Place/Ica LightingIntervals Collection of Interval Lists"
+2026-10-09 18:09:27,423 INFO CONNECT> Timeline * TimeComponent Add ContentView "Scenario Availability" "Place/Ica LightingIntervals Collection of Interval Lists"
+2026-10-09 18:09:27,438 INFO CONNECT> Timeline * Refresh
+2026-10-09 18:09:27,826 INFO TRACK T2 Ica lighting timeline -> Needs verification command accepted; check saved TimelinePrefs.xml
+2026-10-09 18:10:38,931 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:10:38,995 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 18:10:39,012 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\before.png"
+2026-10-09 18:11:36,989 INFO CONNECT> Animate * Reset
+2026-10-09 18:11:37,964 INFO CONNECT> VO * View SetReferenceFrame "CentralBody/Earth Fixed Axes"
+2026-10-09 18:11:38,023 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:11:38,032 INFO CONNECT> VO * ViewerPosition -13.107 -76.366 7030000
+2026-10-09 18:11:38,043 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\t1_try1.png"
+2026-10-09 18:12:09,847 INFO attached pid 27612, STK 13.1.0.739
+2026-10-09 18:12:09,870 INFO TRACK Scenario -> In progress pid 27612, STK 13.1.0.739
+2026-10-09 18:12:09,872 INFO TRACK Terrain -> In progress 
+2026-10-09 18:12:10,839 WARNING UseTerrainServerForAnalysis setter refused: Cannot modify read-only attribute
+2026-10-09 18:12:10,886 INFO TRACK T1 Quake Region view -> In progress 
+2026-10-09 18:12:10,886 INFO CONNECT> Animate * Reset
+2026-10-09 18:12:10,893 INFO CONNECT> VO * View SetReferenceFrame "CentralBody/Earth Fixed Axes"
+2026-10-09 18:12:10,910 INFO CONNECT> VO * ViewerPosition -13.107 -76.366 7030000
+2026-10-09 18:12:10,917 INFO CONNECT> VO * SaveStoredView "Quake Region"
+2026-10-09 18:12:11,132 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 18:12:11,151 INFO TRACK T1 Quake Region view -> Blocked stored views: ['"HomeView" "Quake Region"']
+2026-10-09 18:12:20,900 INFO attached pid 27612, STK 13.1.0.739
+2026-10-09 18:12:20,905 INFO TRACK Scenario -> In progress pid 27612, STK 13.1.0.739
+2026-10-09 18:12:20,933 INFO TRACK Terrain -> In progress 
+2026-10-09 18:12:21,004 WARNING UseTerrainServerForAnalysis setter refused: Cannot modify read-only attribute
+2026-10-09 18:12:21,044 INFO TRACK T1 Quake Region view -> In progress 
+2026-10-09 18:12:21,044 INFO CONNECT> Animate * Reset
+2026-10-09 18:12:21,054 INFO CONNECT> VO * View SetReferenceFrame "CentralBody/Earth Fixed Axes"
+2026-10-09 18:12:21,070 INFO CONNECT> VO * ViewerPosition -13.107 -76.366 7030000
+2026-10-09 18:12:21,085 INFO CONNECT> VO * SaveStoredView "Quake Region"
+2026-10-09 18:12:21,259 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 18:12:21,289 INFO TRACK T1 Quake Region view -> Needs verification stored views: ['"HomeView" "Quake Region"']
+2026-10-09 18:12:31,700 INFO CONNECT> VO * View Home
+2026-10-09 18:12:32,440 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\t1_home.png"
+2026-10-09 18:12:32,606 INFO CONNECT> VO * UseStoredView "Quake Region"
+2026-10-09 18:12:32,625 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\t1_restored.png"
+2026-10-09 18:13:51,792 INFO attached pid 27612, STK 13.1.0.739
+2026-10-09 18:13:51,792 INFO TRACK Scenario -> In progress pid 27612, STK 13.1.0.739
+2026-10-09 18:13:51,811 INFO TRACK Terrain -> In progress 
+2026-10-09 18:13:52,780 WARNING UseTerrainServerForAnalysis setter refused: Cannot modify read-only attribute
+2026-10-09 18:13:52,794 INFO TRACK T3 Ica_LatLon report -> In progress 
+2026-10-09 18:13:52,798 INFO CONNECT> ReportStyle * Load "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13\Ica_LatLon.rst"
+2026-10-09 18:13:52,839 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:13:52,845 INFO CONNECT> QuickReportAdd * Name "Ica_LatLon" Type Report Style "Ica_LatLon" Object Place/Ica
+2026-10-09 18:14:44,091 INFO CONNECT> ReportCreate */Place/Ica Style "Ica_LatLon" Type Save File "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\ica_try.txt"
+2026-10-09 18:14:44,245 INFO CONNECT> ReportCreate */Place/Ica Style "LLA Position" Type Save File "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\ica_builtin.txt"
+2026-10-09 18:14:44,295 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:14:54,588 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:14:54,611 INFO CONNECT> QuickReportAdd * Name "Ica_LatLon" Type Report Style "Ica_LatLon" Object Place/Ica
+2026-10-09 18:14:54,611 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:16:05,157 INFO CONNECT> QuickReportAdd * Name "Ica_LatLon" Type Report Style "Ica_LatLon" Object */Place/Ica
+2026-10-09 18:16:05,202 INFO CONNECT> QuickReportAdd * Name "Ica_LatLon" Type Report Style "My Styles/Ica_LatLon" Object Place/Ica
+2026-10-09 18:16:05,202 INFO CONNECT> QuickReportAdd * Name "Ica_LatLon" Type Report Style "C:\Users\rp982\OneDrive\Documents\STK_ODTK 13\Config\Styles\Place\Ica_LatLon.rst" Object Place/Ica
+2026-10-09 18:16:05,202 INFO CONNECT> QuickReportAdd * Name "Ica_LatLon" Type Report Style "Installed Styles/LLA Position" Object Place/Ica
+2026-10-09 18:16:05,202 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:16:23,415 INFO CONNECT> ReportCreate */Place/Ica Style "Ica_LatLon" Type Display
+2026-10-09 18:18:05,923 INFO CONNECT> QuickReportAdd * Name "zz_probe" Type Report Style "LLA Position" Object Place/NoSuchPlace
+2026-10-09 18:18:05,923 INFO CONNECT> QuickReportAdd * Name "zz_probe" Type Report Style "NoSuchStyle" Object Place/Ica
+2026-10-09 18:18:05,937 INFO CONNECT> QuickReportAdd * Name "zz_probe" Type Bogus Style "LLA Position" Object Place/Ica
+2026-10-09 18:18:07,049 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:21:15,457 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:21:25,964 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:21:25,985 INFO CONNECT> QuickReport_RM * GetReport "Ica_LatLon"
+2026-10-09 18:22:41,439 INFO CONNECT> VO * UseStoredView "Quake Region"
+2026-10-09 18:22:42,373 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13\T1_QuakeRegion_view"
+2026-10-09 18:22:49,651 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 18:22:49,668 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:22:49,676 INFO CONNECT> QuickReport_RM * GetReport "Ica_LatLon"
+2026-10-09 18:22:49,788 INFO TRACK Scenario -> Verified name + 18:54-23:54 in saved .sc and live API
+2026-10-09 18:22:49,800 INFO TRACK Terrain -> Needs verification off in API+.sc, but setter refused (read-only); GUI checkbox not inspected
+2026-10-09 18:22:49,808 INFO TRACK Runway -> Verified 4 vertices in order + ElevationAngle 2.0 in API and Runway.at
+2026-10-09 18:22:49,826 INFO TRACK Places -> Verified lat/lon match in API and saved .plc files
+2026-10-09 18:22:49,846 INFO TRACK T1 Quake Region view -> Verified listed by STK, saved in .sc3, round-trip restore checked by snapshot
+2026-10-09 18:22:49,866 INFO TRACK T2 Ica lighting timeline -> Verified row+Sunlight/Penumbra/Umbra in saved TimelinePrefs.xml; also seen in Timeline View window
+2026-10-09 18:22:49,882 INFO TRACK T3 Ica_LatLon report -> Verified quick report created via toolbar (Connect QuickReportAdd fails in this build); text + saved .sc checked
+2026-10-09 18:22:49,906 INFO TRACK Saved -> Verified STK_Cert_RohanPatel_V13.sc + object/view/timeline/report files on disk; all file checks PASS
+2026-10-09 18:25:57,988 INFO TRACK Aircraft -> In progress 
+2026-10-09 18:26:58,557 INFO TRACK Aircraft -> In progress 
+2026-10-09 18:26:58,605 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:26:58,923 INFO TRACK Route style -> In progress 
+2026-10-09 18:26:59,101 INFO TRACK Model+Attitude -> In progress 
+2026-10-09 18:26:59,468 INFO TRACK AC_Camera -> In progress 
+2026-10-09 18:27:14,653 INFO CONNECT> AvailabilityTimes */Aircraft/CertAircraft
+2026-10-09 18:28:40,717 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:28:41,156 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:28:41,492 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:28:41,742 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:28:41,989 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:28:42,219 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:28:42,506 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:28:42,766 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:28:43,008 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:28:59,047 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:29:00,340 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:29:00,620 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:29:00,876 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:29:01,132 INFO TRACK Waypoints -> In progress 
+2026-10-09 18:29:01,396 INFO TRACK T7 altitude + runway access -> Needs verification 14.0 km: 1 interval(s), access 2852 s of 2852 s flight (100.0%)
+2026-10-09 18:30:49,735 INFO TRACK T4 FlightSummary.csv -> In progress 
+2026-10-09 18:30:49,761 INFO CONNECT> ReportStyle * Load "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13\FlightSummary.rst"
+2026-10-09 18:30:49,805 INFO CONNECT> ReportCreate */Aircraft/CertAircraft Style "FlightSummary" Type Export File "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13\FlightSummary.csv" TimeStep 60
+2026-10-09 18:31:08,019 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:31:08,032 INFO CONNECT> QuickReportAdd * Name "Aircraft_to_Runway" Type Report Style "Access" FromObject Aircraft/CertAircraft Object AreaTarget/Runway
+2026-10-09 18:31:08,085 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:31:29,547 INFO CONNECT> QuickReport_RM * GetReport "Aircraft_to_Runway"
+2026-10-09 18:31:56,017 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:31:56,025 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:31:56,033 INFO CONNECT> GetAnimationData * RefreshMode
+2026-10-09 18:31:56,066 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:31:56,080 INFO CONNECT> VO * ViewFromTo Normal From Aircraft/CertAircraft To AreaTarget/Runway
+2026-10-09 18:31:57,242 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:31:57,379 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:31:57,385 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\t6_view"
+2026-10-09 18:32:41,492 INFO TRACK T6 AircraftView.wmv -> In progress 
+2026-10-09 18:32:41,574 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:32:41,581 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:32:41,587 INFO CONNECT> VO * ViewFromTo Normal From Aircraft/CertAircraft To AreaTarget/Runway
+2026-10-09 18:32:42,644 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:32:42,664 INFO CONNECT> SetAnimation * StartAndCurrentTime "28 Oct 2011 18:54:00.000" EndTime "28 Oct 2011 19:41:32.226"
+2026-10-09 18:32:42,684 INFO CONNECT> RecordMovie3D * FileFormat WMV OutputDir "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13" Prefix AircraftView FrameRate 30 BitRate 3000
+2026-10-09 18:32:42,691 INFO CONNECT> RecordMovie3D * Record On
+2026-10-09 18:32:42,919 INFO CONNECT> Animate * Start Forward End
+2026-10-09 18:32:48,965 INFO CONNECT> RecordMovie3D * Record Off
+2026-10-09 18:32:49,067 INFO CONNECT> Animate * Reset
+2026-10-09 18:32:49,129 INFO CONNECT> SetAnimation * StartAndCurrentTime UseAnalysisStartTime EndTime UseAnalysisStopTime
+2026-10-09 18:32:49,157 INFO CONNECT> SetAnimation * EndMode Continuous
+2026-10-09 18:32:49,192 INFO CONNECT> VO * UseStoredView "Quake Region"
+2026-10-09 18:32:49,205 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:32:49,219 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:34:42,168 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 18:34:42,180 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:34:42,180 INFO CONNECT> QuickReport_RM * GetReport "Ica_LatLon"
+2026-10-09 18:34:42,268 INFO TRACK Scenario -> Verified name + 18:54-23:54 in saved .sc and live API
+2026-10-09 18:34:42,281 INFO TRACK Terrain -> Needs verification off in API+.sc, but setter refused (read-only); GUI checkbox not inspected
+2026-10-09 18:34:42,284 INFO TRACK Runway -> Verified 4 vertices in order + ElevationAngle 2.0 in API and Runway.at
+2026-10-09 18:34:42,315 INFO TRACK Places -> Verified lat/lon match in API and saved .plc files
+2026-10-09 18:34:42,332 INFO TRACK T1 Quake Region view -> Verified listed by STK, saved in .sc3, round-trip restore checked by snapshot
+2026-10-09 18:34:42,348 INFO TRACK T2 Ica lighting timeline -> Verified row+Sunlight/Penumbra/Umbra in saved TimelinePrefs.xml; also seen in Timeline View window
+2026-10-09 18:34:42,376 INFO TRACK T3 Ica_LatLon report -> Verified quick report created via toolbar (Connect QuickReportAdd fails in this build); text + saved .sc checked
+2026-10-09 18:34:43,758 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:34:43,772 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:34:43,778 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:34:43,789 INFO CONNECT> QuickReport_RM * GetReport "Aircraft_to_Runway"
+2026-10-09 18:34:43,848 INFO TRACK Aircraft -> Verified CertAircraft Great Arc in saved .ac
+2026-10-09 18:34:43,862 INFO TRACK Waypoints -> Verified Runway centroid, Paracas, Ica, Runway in order; turn radius 1000 m; alt 14 km (saved .ac)
+2026-10-09 18:34:43,884 INFO TRACK Route style -> Verified white (#ffffff), line width 3 (default 2 + 1) in saved .ac
+2026-10-09 18:34:43,897 INFO TRACK Model+Attitude -> Verified uav.glb in .ac3, AircraftCoordTurn in .ac
+2026-10-09 18:34:43,911 INFO TRACK AC_Camera -> Verified rectangular, 100 x 100 deg full angles in saved .sn
+2026-10-09 18:34:43,925 INFO TRACK T4 FlightSummary.csv -> Verified Time/Lat/Lon/Alt/Heading/Speed, 1-min steps; field list ASSUMED (exercise list not provided)
+2026-10-09 18:34:43,939 INFO TRACK T5 Aircraft_to_Runway -> Verified Access quick report CertAircraft->Runway; text shows 18:54:00-19:41:32.226
+2026-10-09 18:34:43,960 INFO TRACK T6 AircraftView.wmv -> Verified WMV2 532x380 30fps 9.5 s, frames decoded; animation 18:54-23:54 restored
+2026-10-09 18:34:43,982 INFO TRACK T7 altitude + runway access -> Verified 14.0 km: one unbroken access interval = whole flight (default 10.668 km gave 81.8%)
+2026-10-09 18:34:43,995 INFO TRACK Saved -> Verified STK_Cert_RohanPatel_V13.sc + all object/report/video files on disk; all file + live checks PASS
+2026-10-09 18:34:57,175 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:34:57,187 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:35:35,630 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 18:35:35,648 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:35:35,648 INFO CONNECT> QuickReport_RM * GetReport "Ica_LatLon"
+2026-10-09 18:35:35,712 INFO TRACK Scenario -> Verified name + 18:54-23:54 in saved .sc and live API
+2026-10-09 18:35:35,735 INFO TRACK Terrain -> Needs verification off in API+.sc, but setter refused (read-only); GUI checkbox not inspected
+2026-10-09 18:35:35,758 INFO TRACK Runway -> Verified 4 vertices in order + ElevationAngle 2.0 in API and Runway.at
+2026-10-09 18:35:35,774 INFO TRACK Places -> Verified lat/lon match in API and saved .plc files
+2026-10-09 18:35:35,790 INFO TRACK T1 Quake Region view -> Verified listed by STK, saved in .sc3, round-trip restore checked by snapshot
+2026-10-09 18:35:35,821 INFO TRACK T2 Ica lighting timeline -> Verified row+Sunlight/Penumbra/Umbra in saved TimelinePrefs.xml; also seen in Timeline View window
+2026-10-09 18:35:35,859 INFO TRACK T3 Ica_LatLon report -> Verified quick report created via toolbar click (QuickReportAdd fails only for the scenario's FIRST quick report); text + saved .sc checked
+2026-10-09 18:35:37,216 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:35:37,228 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:35:37,228 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:35:37,240 INFO CONNECT> QuickReport_RM * GetReport "Aircraft_to_Runway"
+2026-10-09 18:35:37,293 INFO TRACK Aircraft -> Verified CertAircraft Great Arc in saved .ac
+2026-10-09 18:35:37,322 INFO TRACK Waypoints -> Verified Runway centroid, Paracas, Ica, Runway in order; turn radius 1000 m; alt 14 km (saved .ac)
+2026-10-09 18:35:37,334 INFO TRACK Route style -> Verified white (#ffffff), line width 3 (default 2 + 1) in saved .ac
+2026-10-09 18:35:37,350 INFO TRACK Model+Attitude -> Verified uav.glb in .ac3, AircraftCoordTurn in .ac
+2026-10-09 18:35:37,382 INFO TRACK AC_Camera -> Verified rectangular, 100 x 100 deg full angles in saved .sn
+2026-10-09 18:35:37,397 INFO TRACK T4 FlightSummary.csv -> Needs verification Time/Lat/Lon/Alt/Heading/Speed, 1-min steps; file valid but required field list ASSUMED
+2026-10-09 18:35:37,417 INFO TRACK T5 Aircraft_to_Runway -> Verified Access quick report CertAircraft->Runway; text shows 18:54:00-19:41:32.226
+2026-10-09 18:35:37,446 INFO TRACK T6 AircraftView.wmv -> Verified WMV2 532x380 30fps 9.5 s, frames decoded; animation 18:54-23:54 restored
+2026-10-09 18:35:37,454 INFO TRACK T7 altitude + runway access -> Verified 14.0 km: one unbroken access interval = whole flight (default 10.668 km gave 81.8%)
+2026-10-09 18:35:37,486 INFO TRACK Saved -> Verified STK_Cert_RohanPatel_V13.sc + all object/report/video files on disk; all file + live checks PASS
+2026-10-09 18:39:28,727 INFO TRACK T4 FlightSummary.csv -> In progress 
+2026-10-09 18:39:28,730 INFO CONNECT> ReportStyle * Load "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13\FlightSummary.rst"
+2026-10-09 18:39:28,746 INFO CONNECT> ReportCreate */Aircraft/CertAircraft Style "FlightSummary" Type Export File "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13\FlightSummary.csv" TimeStep 60
+2026-10-09 18:40:19,706 INFO TRACK T4 FlightSummary.csv -> In progress 
+2026-10-09 18:40:19,714 INFO CONNECT> ReportStyle * Load "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13\FlightSummary.rst"
+2026-10-09 18:40:19,728 INFO CONNECT> ReportCreate */Aircraft/CertAircraft Style "FlightSummary" Type Export File "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13\FlightSummary.csv" TimeStep 60
+2026-10-09 18:44:11,651 INFO TRACK T6 AircraftView.wmv -> In progress 
+2026-10-09 18:44:11,729 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:44:11,737 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:44:11,737 INFO CONNECT> VO * ViewFromTo Normal From Aircraft/CertAircraft To AreaTarget/Runway
+2026-10-09 18:44:12,483 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:44:12,499 INFO CONNECT> SetAnimation * StartAndCurrentTime "28 Oct 2011 18:54:00.000" EndTime "28 Oct 2011 19:41:32.226"
+2026-10-09 18:44:12,546 INFO CONNECT> RecordMovie3D * FileFormat WMV OutputDir "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13" Prefix AircraftView FrameRate 24 BitRate 3000
+2026-10-09 18:44:12,546 INFO CONNECT> RecordMovie3D * Record On
+2026-10-09 18:44:12,710 INFO CONNECT> Animate * Start Forward End
+2026-10-09 18:44:18,830 INFO CONNECT> RecordMovie3D * Record Off
+2026-10-09 18:44:18,910 INFO CONNECT> Animate * Reset
+2026-10-09 18:44:18,959 INFO CONNECT> SetAnimation * StartAndCurrentTime UseAnalysisStartTime EndTime UseAnalysisStopTime
+2026-10-09 18:44:18,977 INFO CONNECT> SetAnimation * EndMode Continuous
+2026-10-09 18:44:19,031 INFO CONNECT> VO * UseStoredView "Quake Region"
+2026-10-09 18:44:19,042 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:44:19,056 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:45:45,668 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:45:45,687 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:45:45,710 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:45:46,991 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 18:45:46,997 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:45:47,013 INFO CONNECT> QuickReport_RM * GetReport "Ica_LatLon"
+2026-10-09 18:45:47,109 INFO TRACK Scenario -> Verified name + 18:54-23:54 in saved .sc and live API
+2026-10-09 18:45:47,121 INFO TRACK Terrain -> Needs verification off in API+.sc, but setter refused (read-only); GUI checkbox not inspected
+2026-10-09 18:45:47,138 INFO TRACK Runway -> Verified 4 vertices in order + ElevationAngle 2.0 in API and Runway.at
+2026-10-09 18:45:47,174 INFO TRACK Places -> Verified lat/lon match in API and saved .plc files
+2026-10-09 18:45:47,192 INFO TRACK T1 Quake Region view -> Verified listed by STK, saved in .sc3, round-trip restore checked by snapshot
+2026-10-09 18:45:47,234 INFO TRACK T2 Ica lighting timeline -> Verified row+Sunlight/Penumbra/Umbra in saved TimelinePrefs.xml; also seen in Timeline View window
+2026-10-09 18:45:47,246 INFO TRACK T3 Ica_LatLon report -> Verified quick report created via toolbar click (QuickReportAdd fails only for the scenario's FIRST quick report); text + saved .sc checked
+2026-10-09 18:45:48,626 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:45:48,639 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:45:48,660 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:45:48,668 INFO CONNECT> QuickReport_RM * GetReport "Aircraft_to_Runway"
+2026-10-09 18:45:48,751 INFO TRACK Aircraft -> Verified CertAircraft Great Arc in saved .ac
+2026-10-09 18:45:48,765 INFO TRACK Waypoints -> Verified Runway centroid, Paracas, Ica, Runway in order; turn radius 1000 m; alt 14 km (saved .ac)
+2026-10-09 18:45:48,787 INFO TRACK Route style -> Verified white (#ffffff), line width 3 (default 2 + 1) in saved .ac
+2026-10-09 18:45:48,808 INFO TRACK Model+Attitude -> Verified uav.glb in .ac3, AircraftCoordTurn in .ac
+2026-10-09 18:45:48,820 INFO TRACK AC_Camera -> Verified rectangular, 100 x 100 deg full angles in saved .sn
+2026-10-09 18:45:48,835 INFO TRACK T4 FlightSummary.csv -> Verified exact 7 fields (Time in EpSec); data recomputed independently: azimuth/elevation/speed/cross-track/total time all agree
+2026-10-09 18:45:48,862 INFO TRACK T5 Aircraft_to_Runway -> Verified Access quick report CertAircraft->Runway; text shows 18:54:00-19:41:32.226
+2026-10-09 18:45:48,879 INFO TRACK T6 AircraftView.wmv -> Verified WMV2 532x380 24fps 11.9 s (header-checked 10-15 s), frames decoded; first frame 18:54:10; animation 18:54-23:54 restored
+2026-10-09 18:45:48,897 INFO TRACK T7 altitude + runway access -> Verified 14.0 km: one unbroken access interval = whole flight (default 10.668 km gave 81.8%)
+2026-10-09 18:45:48,910 INFO TRACK Saved -> Verified STK_Cert_RohanPatel_V13.sc + all object/report/video files on disk; all file + live checks PASS
+2026-10-09 18:49:31,511 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:18:23.505"
+2026-10-09 18:49:32,290 INFO CONNECT> VO * ViewFromTo Normal From CentralBody/Earth To Aircraft/CertAircraft
+2026-10-09 18:49:32,329 INFO CONNECT> VO * ViewFromTo Parameters Distance To 400
+2026-10-09 18:49:32,369 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:49:32,387 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\\view_A_earth_to_aircraft_d400"
+2026-10-09 18:49:32,599 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:49:32,603 INFO CONNECT> VO * ViewFromTo Normal From Aircraft/CertAircraft To Place/Ica
+2026-10-09 18:49:32,714 INFO CONNECT> VO * ViewFromTo Parameters Distance From 300
+2026-10-09 18:49:32,757 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:49:32,784 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\\view_B_aircraft_to_ica_d300"
+2026-10-09 18:49:33,004 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:49:33,012 INFO CONNECT> VO * ViewFromTo Normal From Place/Ica To Aircraft/CertAircraft
+2026-10-09 18:49:33,048 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:49:33,067 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\\view_C_ica_to_aircraft"
+2026-10-09 18:49:33,322 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:50:19,671 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:18:23.505"
+2026-10-09 18:50:20,436 INFO CONNECT> VO * ViewFromTo Normal From CentralBody/Earth To Place/Ica
+2026-10-09 18:50:20,448 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:50:20,462 INFO CONNECT> VO * ViewerPosition 35 200 30000
+2026-10-09 18:50:20,476 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:50:20,483 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_D1_to_ica_default_frame"
+2026-10-09 18:50:20,923 INFO CONNECT> VO * ViewFromTo Normal From CentralBody/Earth To Place/Ica
+2026-10-09 18:50:20,966 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:50:20,974 INFO CONNECT> VO * View SetReferenceFrame "Place/Ica TopoCentric Axes"
+2026-10-09 18:50:20,977 INFO CONNECT> VO * ViewerPosition 35 200 30000
+2026-10-09 18:50:20,990 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:50:20,999 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_D2_to_ica_topo_frame"
+2026-10-09 18:50:21,207 INFO CONNECT> VO * ViewFromTo Normal From Place/Ica To Aircraft/CertAircraft
+2026-10-09 18:50:21,241 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:50:21,259 INFO CONNECT> VO * ViewerPosition 35 200 30000
+2026-10-09 18:50:21,287 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:50:21,294 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_E_ica_to_aircraft_offset"
+2026-10-09 18:50:50,883 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:18:23.505"
+2026-10-09 18:50:51,647 INFO CONNECT> VO * ViewFromTo Normal From Place/Ica To Aircraft/CertAircraft
+2026-10-09 18:50:51,668 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:50:51,693 INFO CONNECT> VO * ViewerPosition 25 160 60000
+2026-10-09 18:50:51,715 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_F1_60km"
+2026-10-09 18:50:52,170 INFO CONNECT> VO * ViewFromTo Normal From Place/Ica To Aircraft/CertAircraft
+2026-10-09 18:50:52,237 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:50:52,263 INFO CONNECT> VO * ViewerPosition 20 120 90000
+2026-10-09 18:50:52,321 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_F2_90km"
+2026-10-09 18:51:13,007 INFO CONNECT> VO * ViewFromTo Normal From CentralBody/Earth To Place/Ica
+2026-10-09 18:51:13,734 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:51:13,741 INFO CONNECT> VO * View SetReferenceFrame "CentralBody/Earth Fixed Axes"
+2026-10-09 18:51:13,750 INFO CONNECT> VO * ViewerPosition -13.9 -75.73 45000
+2026-10-09 18:51:13,771 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:51:13,780 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:17:43.505"
+2026-10-09 18:51:13,841 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_G_before"
+2026-10-09 18:51:14,159 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:18:23.505"
+2026-10-09 18:51:14,256 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_G_over"
+2026-10-09 18:51:14,627 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:19:03.505"
+2026-10-09 18:51:14,661 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_G_after"
+2026-10-09 18:51:49,354 INFO CONNECT> VO * ViewerPosition 13.9 104.27 45000
+2026-10-09 18:51:50,082 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:17:43.505"
+2026-10-09 18:51:50,140 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_H_before"
+2026-10-09 18:51:50,361 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:18:23.505"
+2026-10-09 18:51:50,423 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_H_over"
+2026-10-09 18:51:50,696 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:19:03.505"
+2026-10-09 18:51:50,788 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_H_after"
+2026-10-09 18:52:13,413 INFO CONNECT> VO * View Home
+2026-10-09 18:52:14,171 INFO CONNECT> VO * View SetReferenceFrame "CentralBody/Earth Fixed Axes"
+2026-10-09 18:52:14,185 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:52:14,192 INFO CONNECT> VO * ViewerPosition -14.0639 -75.7303 6418137
+2026-10-09 18:52:14,220 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:18:23.505"
+2026-10-09 18:52:14,284 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_J_40km_over"
+2026-10-09 18:52:14,490 INFO CONNECT> VO * ViewerPosition -14.0639 -75.7303 6458137
+2026-10-09 18:52:14,506 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:18:23.505"
+2026-10-09 18:52:14,559 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\view_J_80km_over"
+2026-10-09 18:53:06,636 INFO TRACK T6 AircraftView.wmv -> In progress 
+2026-10-09 18:53:06,738 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:53:06,746 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:53:06,746 INFO CONNECT> VO * View Home
+2026-10-09 18:53:07,469 INFO CONNECT> VO * View SetReferenceFrame "CentralBody/Earth Fixed Axes"
+2026-10-09 18:53:07,497 INFO CONNECT> VO * ViewerPosition -14.0639 -75.7303 6438137
+2026-10-09 18:53:07,512 INFO CONNECT> SetAnimation * StartAndCurrentTime "28 Oct 2011 19:16:23.505" EndTime "28 Oct 2011 19:20:23.505" TimeStep 1
+2026-10-09 18:53:07,552 INFO CONNECT> RecordMovie3D * FileFormat WMV OutputDir "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13" Prefix AircraftView FrameRate 20 BitRate 3000
+2026-10-09 18:53:07,563 INFO CONNECT> RecordMovie3D * Record On
+2026-10-09 18:53:07,761 INFO CONNECT> Animate * Start Forward End
+2026-10-09 18:53:13,834 INFO CONNECT> RecordMovie3D * Record Off
+2026-10-09 18:53:13,914 INFO CONNECT> Animate * Reset
+2026-10-09 18:53:13,932 INFO CONNECT> SetAnimation * StartAndCurrentTime UseAnalysisStartTime EndTime UseAnalysisStopTime TimeStep 10
+2026-10-09 18:53:13,971 INFO CONNECT> SetAnimation * EndMode Continuous
+2026-10-09 18:53:13,997 INFO CONNECT> VO * UseStoredView "Quake Region"
+2026-10-09 18:53:14,013 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:53:14,026 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:53:40,162 INFO TRACK T6 AircraftView.wmv -> In progress 
+2026-10-09 18:53:40,258 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:53:40,268 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:53:40,268 INFO CONNECT> VO * View Home
+2026-10-09 18:53:41,013 INFO CONNECT> VO * View SetReferenceFrame "CentralBody/Earth Fixed Axes"
+2026-10-09 18:53:41,027 INFO CONNECT> VO * ViewerPosition -13.9735 -75.7303 6438137
+2026-10-09 18:53:41,040 INFO CONNECT> SetAnimation * StartAndCurrentTime "28 Oct 2011 19:16:23.505" EndTime "28 Oct 2011 19:20:23.505" TimeStep 1
+2026-10-09 18:53:41,088 INFO CONNECT> RecordMovie3D * FileFormat WMV OutputDir "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13" Prefix AircraftView FrameRate 20 BitRate 3000
+2026-10-09 18:53:41,133 INFO CONNECT> RecordMovie3D * Record On
+2026-10-09 18:53:41,348 INFO CONNECT> Animate * Start Forward End
+2026-10-09 18:53:47,464 INFO CONNECT> RecordMovie3D * Record Off
+2026-10-09 18:53:47,535 INFO CONNECT> Animate * Reset
+2026-10-09 18:53:47,560 INFO CONNECT> SetAnimation * StartAndCurrentTime UseAnalysisStartTime EndTime UseAnalysisStopTime TimeStep 10
+2026-10-09 18:53:47,589 INFO CONNECT> SetAnimation * EndMode Continuous
+2026-10-09 18:53:47,612 INFO CONNECT> VO * UseStoredView "Quake Region"
+2026-10-09 18:53:47,630 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:53:47,636 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:54:23,122 INFO TRACK Satellite -> In progress 
+2026-10-09 18:54:23,154 INFO CONNECT> New / */Satellite CertSatellite
+2026-10-09 18:56:32,935 INFO TRACK Satellite -> In progress 
+2026-10-09 18:56:33,109 INFO CONNECT> SetState */Satellite/CertSatellite Classical TwoBody UseScenarioInterval 60 ICRF "28 Oct 2011 18:54:00.000" 6678137.0 0.0 15.0 0.0 0.0 0.0
+2026-10-09 18:56:33,913 INFO TRACK Sat model + camera -> In progress 
+2026-10-09 18:57:30,354 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:59:17.795"
+2026-10-09 18:57:31,108 INFO CONNECT> VO * ViewFromTo Normal From Satellite/CertSatellite/Sensor/Sat_Camera To Place/Ica
+2026-10-09 18:57:31,184 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:57:31,206 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\sat_S1_from_camera_to_ica"
+2026-10-09 18:57:31,420 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:57:31,427 INFO CONNECT> VO * ViewFromTo Normal From Satellite/CertSatellite To Place/Ica
+2026-10-09 18:57:31,447 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:57:31,458 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\sat_S2_from_sat_to_ica"
+2026-10-09 18:57:31,678 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:57:31,683 INFO CONNECT> VO * ViewFromTo Normal From Place/Ica To Satellite/CertSatellite
+2026-10-09 18:57:31,731 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:57:31,750 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\sat_S3_from_ica_to_sat"
+2026-10-09 18:57:32,059 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:58:09,485 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:59:17.795"
+2026-10-09 18:58:09,554 INFO TRACK T8 SatView.bmp -> In progress 
+2026-10-09 18:58:09,554 INFO CONNECT> VO * ViewFromTo Normal From Satellite/CertSatellite/Sensor/Sat_Camera To Place/Ica
+2026-10-09 18:58:09,573 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 18:58:09,590 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13\SatView"
+2026-10-09 18:58:09,802 INFO CONNECT> VO * UseStoredView "Quake Region"
+2026-10-09 18:58:11,124 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:58:11,138 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:58:28,553 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:59:17.795"
+2026-10-09 18:58:28,829 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 18:58:28,837 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 18:58:28,839 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 18:58:35,706 INFO TRACK T9 SatCamera_to_Ica -> In progress 
+2026-10-09 18:58:35,706 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 18:58:35,715 INFO CONNECT> QuickReportAdd * Name "SatCamera_to_Ica" Type Report Style "AER" FromObject Satellite/CertSatellite/Sensor/Sat_Camera Object Place/Ica
+2026-10-09 18:58:35,723 INFO CONNECT> QuickReport_RM * GetReport "SatCamera_to_Ica"
+2026-10-09 19:01:30,560 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 19:01:30,596 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:01:30,611 INFO CONNECT> QuickReport_RM * GetReport "Ica_LatLon"
+2026-10-09 19:01:30,755 INFO TRACK Scenario -> Verified name + 18:54-23:54 in saved .sc and live API
+2026-10-09 19:01:30,776 INFO TRACK Terrain -> Needs verification off in API+.sc, but setter refused (read-only); GUI checkbox not inspected
+2026-10-09 19:01:30,804 INFO TRACK Runway -> Verified 4 vertices in order + ElevationAngle 2.0 in API and Runway.at
+2026-10-09 19:01:30,826 INFO TRACK Places -> Verified lat/lon match in API and saved .plc files
+2026-10-09 19:01:30,846 INFO TRACK T1 Quake Region view -> Verified listed by STK, saved in .sc3, round-trip restore checked by snapshot
+2026-10-09 19:01:30,858 INFO TRACK T2 Ica lighting timeline -> Verified row+Sunlight/Penumbra/Umbra in saved TimelinePrefs.xml; also seen in Timeline View window
+2026-10-09 19:01:30,890 INFO TRACK T3 Ica_LatLon report -> Verified quick report created via toolbar click (QuickReportAdd fails only for the scenario's FIRST quick report); text + saved .sc checked
+2026-10-09 19:01:32,278 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 19:01:32,283 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 19:01:32,289 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:01:32,299 INFO CONNECT> QuickReport_RM * GetReport "Aircraft_to_Runway"
+2026-10-09 19:01:32,454 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:01:32,468 INFO CONNECT> QuickReport_RM * GetReport "SatCamera_to_Ica"
+2026-10-09 19:01:32,747 INFO TRACK Aircraft -> Verified CertAircraft Great Arc in saved .ac
+2026-10-09 19:01:32,763 INFO TRACK Waypoints -> Verified Runway centroid, Paracas, Ica, Runway in order; turn radius 1000 m; alt 14 km (saved .ac)
+2026-10-09 19:01:32,778 INFO TRACK Route style -> Verified white (#ffffff), line width 3 (default 2 + 1) in saved .ac
+2026-10-09 19:01:32,805 INFO TRACK Model+Attitude -> Verified uav.glb in .ac3, AircraftCoordTurn in .ac
+2026-10-09 19:01:32,826 INFO TRACK AC_Camera -> Verified rectangular, 100 x 100 deg full angles in saved .sn
+2026-10-09 19:01:32,842 INFO TRACK T4 FlightSummary.csv -> Verified exact 7 fields (Time in EpSec); data recomputed independently: azimuth/elevation/speed/cross-track/total time all agree
+2026-10-09 19:01:32,859 INFO TRACK T5 Aircraft_to_Runway -> Verified Access quick report CertAircraft->Runway; text shows 18:54:00-19:41:32.226
+2026-10-09 19:01:32,872 INFO TRACK T6 AircraftView.wmv -> Verified 12.05 s (header-checked 10-15 s); 241 frames 19:16:23-19:20:23 top-down over Ica, aircraft+route+Ica label seen in decoded frames; animation period+step restored
+2026-10-09 19:01:32,899 INFO TRACK T7 altitude + runway access -> Verified 14.0 km: one unbroken access interval = whole flight (default 10.668 km gave 81.8%)
+2026-10-09 19:01:32,919 INFO TRACK Satellite -> Verified CertSatellite via Connect New+SetState: TwoBody, i=15, other elements = STK defaults; saved .sa
+2026-10-09 19:01:32,931 INFO TRACK Long Description -> Verified the two logged Connect commands are in the scenario Long Description (saved .sc)
+2026-10-09 19:01:32,963 INFO TRACK Sat model + camera -> Blocked cubesat_3u.glb in .sa3; Sat_Camera Simple Conic half angle 30 = 60 deg full (confirmed by AER edge elevation -60)
+2026-10-09 19:01:32,979 INFO TRACK First access + anim time -> Verified first Sat_Camera->Ica access 28 Oct 2011 19:59:17.795; animation clock set to it and saved
+2026-10-09 19:01:33,013 INFO TRACK T8 SatView.bmp -> Verified SatView.bmp via VO SnapFrame at first access, from Sat_Camera toward Ica (frame viewed)
+2026-10-09 19:01:33,035 INFO TRACK T9 SatCamera_to_Ica -> Verified AER quick report: az/el/range per pass; edge rows match independent geometry (el -60, range 350.64 km)
+2026-10-09 19:01:33,051 INFO TRACK T10 comparison -> Verified aircraft camera first (19:17:01.484 vs 19:59:17.795) and longest (81.519 s vs 47.800 s); file T10_AccessComparison.txt
+2026-10-09 19:01:33,083 INFO TRACK Saved -> Blocked STK_Cert_RohanPatel_V13.sc + all object/report/video/image files on disk; all file + live checks PASS
+2026-10-09 19:01:57,898 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 19:01:57,917 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:01:57,927 INFO CONNECT> QuickReport_RM * GetReport "Ica_LatLon"
+2026-10-09 19:01:57,987 INFO TRACK Scenario -> Verified name + 18:54-23:54 in saved .sc and live API
+2026-10-09 19:01:58,009 INFO TRACK Terrain -> Needs verification off in API+.sc, but setter refused (read-only); GUI checkbox not inspected
+2026-10-09 19:01:58,023 INFO TRACK Runway -> Verified 4 vertices in order + ElevationAngle 2.0 in API and Runway.at
+2026-10-09 19:01:58,037 INFO TRACK Places -> Verified lat/lon match in API and saved .plc files
+2026-10-09 19:01:58,067 INFO TRACK T1 Quake Region view -> Verified listed by STK, saved in .sc3, round-trip restore checked by snapshot
+2026-10-09 19:01:58,092 INFO TRACK T2 Ica lighting timeline -> Verified row+Sunlight/Penumbra/Umbra in saved TimelinePrefs.xml; also seen in Timeline View window
+2026-10-09 19:01:58,127 INFO TRACK T3 Ica_LatLon report -> Verified quick report created via toolbar click (QuickReportAdd fails only for the scenario's FIRST quick report); text + saved .sc checked
+2026-10-09 19:01:59,389 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 19:01:59,396 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 19:01:59,407 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:01:59,410 INFO CONNECT> QuickReport_RM * GetReport "Aircraft_to_Runway"
+2026-10-09 19:01:59,559 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:01:59,565 INFO CONNECT> QuickReport_RM * GetReport "SatCamera_to_Ica"
+2026-10-09 19:01:59,774 INFO TRACK Aircraft -> Verified CertAircraft Great Arc in saved .ac
+2026-10-09 19:01:59,787 INFO TRACK Waypoints -> Verified Runway centroid, Paracas, Ica, Runway in order; turn radius 1000 m; alt 14 km (saved .ac)
+2026-10-09 19:01:59,806 INFO TRACK Route style -> Verified white (#ffffff), line width 3 (default 2 + 1) in saved .ac
+2026-10-09 19:01:59,827 INFO TRACK Model+Attitude -> Verified uav.glb in .ac3, AircraftCoordTurn in .ac
+2026-10-09 19:01:59,848 INFO TRACK AC_Camera -> Verified rectangular, 100 x 100 deg full angles in saved .sn
+2026-10-09 19:01:59,869 INFO TRACK T4 FlightSummary.csv -> Verified exact 7 fields (Time in EpSec); data recomputed independently: azimuth/elevation/speed/cross-track/total time all agree
+2026-10-09 19:01:59,890 INFO TRACK T5 Aircraft_to_Runway -> Verified Access quick report CertAircraft->Runway; text shows 18:54:00-19:41:32.226
+2026-10-09 19:01:59,918 INFO TRACK T6 AircraftView.wmv -> Verified 12.05 s (header-checked 10-15 s); 241 frames 19:16:23-19:20:23 top-down over Ica, aircraft+route+Ica label seen in decoded frames; animation period+step restored
+2026-10-09 19:01:59,939 INFO TRACK T7 altitude + runway access -> Verified 14.0 km: one unbroken access interval = whole flight (default 10.668 km gave 81.8%)
+2026-10-09 19:01:59,966 INFO TRACK Satellite -> Verified CertSatellite via Connect New+SetState: TwoBody, i=15, other elements = STK defaults; saved .sa
+2026-10-09 19:02:00,012 INFO TRACK Long Description -> Verified the two logged Connect commands are in the scenario Long Description (saved .sc)
+2026-10-09 19:02:00,036 INFO TRACK Sat model + camera -> Verified cubesat_3u.glb in .sa3; Sat_Camera Simple Conic half angle 30 = 60 deg full (confirmed by AER edge elevation -60)
+2026-10-09 19:02:00,064 INFO TRACK First access + anim time -> Verified first Sat_Camera->Ica access 28 Oct 2011 19:59:17.795; animation clock set to it and saved
+2026-10-09 19:02:00,085 INFO TRACK T8 SatView.bmp -> Verified SatView.bmp via VO SnapFrame at first access, from Sat_Camera toward Ica (frame viewed)
+2026-10-09 19:02:00,113 INFO TRACK T9 SatCamera_to_Ica -> Verified AER quick report: az/el/range per pass; edge rows match independent geometry (el -60, range 350.64 km)
+2026-10-09 19:02:00,136 INFO TRACK T10 comparison -> Verified aircraft camera first (19:17:01.484 vs 19:59:17.795) and longest (81.519 s vs 47.800 s); file T10_AccessComparison.txt
+2026-10-09 19:02:00,154 INFO TRACK Saved -> Verified STK_Cert_RohanPatel_V13.sc + all object/report/video/image files on disk; all file + live checks PASS
+2026-10-09 19:02:01,410 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 19:02:01,431 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:02:01,438 INFO CONNECT> QuickReport_RM * GetReport "Ica_LatLon"
+2026-10-09 19:02:01,535 INFO TRACK Scenario -> Verified name + 18:54-23:54 in saved .sc and live API
+2026-10-09 19:02:01,557 INFO TRACK Terrain -> Needs verification off in API+.sc, but setter refused (read-only); GUI checkbox not inspected
+2026-10-09 19:02:01,577 INFO TRACK Runway -> Verified 4 vertices in order + ElevationAngle 2.0 in API and Runway.at
+2026-10-09 19:02:01,598 INFO TRACK Places -> Verified lat/lon match in API and saved .plc files
+2026-10-09 19:02:01,626 INFO TRACK T1 Quake Region view -> Verified listed by STK, saved in .sc3, round-trip restore checked by snapshot
+2026-10-09 19:02:01,653 INFO TRACK T2 Ica lighting timeline -> Verified row+Sunlight/Penumbra/Umbra in saved TimelinePrefs.xml; also seen in Timeline View window
+2026-10-09 19:02:01,674 INFO TRACK T3 Ica_LatLon report -> Verified quick report created via toolbar click (QuickReportAdd fails only for the scenario's FIRST quick report); text + saved .sc checked
+2026-10-09 19:02:02,306 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 19:02:02,312 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 19:02:02,320 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:02:02,326 INFO CONNECT> QuickReport_RM * GetReport "Aircraft_to_Runway"
+2026-10-09 19:02:02,479 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:02:02,487 INFO CONNECT> QuickReport_RM * GetReport "SatCamera_to_Ica"
+2026-10-09 19:02:02,694 INFO TRACK Aircraft -> Verified CertAircraft Great Arc in saved .ac
+2026-10-09 19:02:02,716 INFO TRACK Waypoints -> Verified Runway centroid, Paracas, Ica, Runway in order; turn radius 1000 m; alt 14 km (saved .ac)
+2026-10-09 19:02:02,753 INFO TRACK Route style -> Verified white (#ffffff), line width 3 (default 2 + 1) in saved .ac
+2026-10-09 19:02:02,792 INFO TRACK Model+Attitude -> Verified uav.glb in .ac3, AircraftCoordTurn in .ac
+2026-10-09 19:02:02,813 INFO TRACK AC_Camera -> Verified rectangular, 100 x 100 deg full angles in saved .sn
+2026-10-09 19:02:02,834 INFO TRACK T4 FlightSummary.csv -> Verified exact 7 fields (Time in EpSec); data recomputed independently: azimuth/elevation/speed/cross-track/total time all agree
+2026-10-09 19:02:02,855 INFO TRACK T5 Aircraft_to_Runway -> Verified Access quick report CertAircraft->Runway; text shows 18:54:00-19:41:32.226
+2026-10-09 19:02:02,878 INFO TRACK T6 AircraftView.wmv -> Verified 12.05 s (header-checked 10-15 s); 241 frames 19:16:23-19:20:23 top-down over Ica, aircraft+route+Ica label seen in decoded frames; animation period+step restored
+2026-10-09 19:02:02,903 INFO TRACK T7 altitude + runway access -> Verified 14.0 km: one unbroken access interval = whole flight (default 10.668 km gave 81.8%)
+2026-10-09 19:02:02,934 INFO TRACK Satellite -> Verified CertSatellite via Connect New+SetState: TwoBody, i=15, other elements = STK defaults; saved .sa
+2026-10-09 19:02:02,959 INFO TRACK Long Description -> Verified the two logged Connect commands are in the scenario Long Description (saved .sc)
+2026-10-09 19:02:02,972 INFO TRACK Sat model + camera -> Verified cubesat_3u.glb in .sa3; Sat_Camera Simple Conic half angle 30 = 60 deg full (confirmed by AER edge elevation -60)
+2026-10-09 19:02:02,994 INFO TRACK First access + anim time -> Verified first Sat_Camera->Ica access 28 Oct 2011 19:59:17.795; animation clock set to it and saved
+2026-10-09 19:02:03,008 INFO TRACK T8 SatView.bmp -> Verified SatView.bmp via VO SnapFrame at first access, from Sat_Camera toward Ica (frame viewed)
+2026-10-09 19:02:03,030 INFO TRACK T9 SatCamera_to_Ica -> Verified AER quick report: az/el/range per pass; edge rows match independent geometry (el -60, range 350.64 km)
+2026-10-09 19:02:03,050 INFO TRACK T10 comparison -> Verified aircraft camera first (19:17:01.484 vs 19:59:17.795) and longest (81.519 s vs 47.800 s); file T10_AccessComparison.txt
+2026-10-09 19:02:03,070 INFO TRACK Saved -> Verified STK_Cert_RohanPatel_V13.sc + all object/report/video/image files on disk; all file + live checks PASS
+2026-10-09 19:02:35,380 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 19:02:35,397 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 19:05:24,608 INFO CONNECT> VO */Aircraft/CertAircraft Marker Show On
+2026-10-09 19:05:57,214 INFO CONNECT> VO */Aircraft/CertAircraft Marker Show Off
+2026-10-09 19:05:59,152 INFO CONNECT> VO */Aircraft/CertAircraft Marker Show On
+2026-10-09 19:07:05,376 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 19:07:05,383 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 19:07:05,397 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:07:05,397 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 19:07:19,200 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 19:07:19,219 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:07:19,226 INFO CONNECT> QuickReport_RM * GetReport "Ica_LatLon"
+2026-10-09 19:07:19,290 INFO TRACK Scenario -> Verified name + 18:54-23:54 in saved .sc and live API
+2026-10-09 19:07:19,311 INFO TRACK Terrain -> Needs verification off in API+.sc, but setter refused (read-only); GUI checkbox not inspected
+2026-10-09 19:07:19,341 INFO TRACK Runway -> Verified 4 vertices in order + ElevationAngle 2.0 in API and Runway.at
+2026-10-09 19:07:19,367 INFO TRACK Places -> Verified lat/lon match in API and saved .plc files
+2026-10-09 19:07:19,381 INFO TRACK T1 Quake Region view -> Verified listed by STK, saved in .sc3, round-trip restore checked by snapshot
+2026-10-09 19:07:19,405 INFO TRACK T2 Ica lighting timeline -> Verified row+Sunlight/Penumbra/Umbra in saved TimelinePrefs.xml; also seen in Timeline View window
+2026-10-09 19:07:19,430 INFO TRACK T3 Ica_LatLon report -> Verified quick report created via toolbar click (QuickReportAdd fails only for the scenario's FIRST quick report); text + saved .sc checked
+2026-10-09 19:07:20,049 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 19:07:20,066 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 19:07:20,066 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:07:20,083 INFO CONNECT> QuickReport_RM * GetReport "Aircraft_to_Runway"
+2026-10-09 19:07:20,226 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:07:20,232 INFO CONNECT> QuickReport_RM * GetReport "SatCamera_to_Ica"
+2026-10-09 19:07:20,457 INFO TRACK Aircraft -> Verified CertAircraft Great Arc in saved .ac
+2026-10-09 19:07:20,485 INFO TRACK Waypoints -> Verified Runway centroid, Paracas, Ica, Runway in order; turn radius 1000 m; alt 14 km (saved .ac)
+2026-10-09 19:07:20,507 INFO TRACK Route style -> Verified white (#ffffff), line width 3 (default 2 + 1) in saved .ac
+2026-10-09 19:07:20,529 INFO TRACK Model+Attitude -> Verified uav.glb in .ac3, AircraftCoordTurn in .ac
+2026-10-09 19:07:20,552 INFO TRACK AC_Camera -> Verified rectangular, 100 x 100 deg full angles in saved .sn
+2026-10-09 19:07:20,569 INFO TRACK T4 FlightSummary.csv -> Verified exact 7 fields (Time in EpSec); data recomputed independently: azimuth/elevation/speed/cross-track/total time all agree
+2026-10-09 19:07:20,588 INFO TRACK T5 Aircraft_to_Runway -> Verified Access quick report CertAircraft->Runway; text shows 18:54:00-19:41:32.226
+2026-10-09 19:07:20,603 INFO TRACK T6 AircraftView.wmv -> Verified 12.05 s (header-checked 10-15 s); 241 frames 19:16:23-19:20:23 top-down over Ica, aircraft+route+Ica label seen in decoded frames; animation period+step restored
+2026-10-09 19:07:20,633 INFO TRACK T7 altitude + runway access -> Verified 14.0 km: one unbroken access interval = whole flight (default 10.668 km gave 81.8%)
+2026-10-09 19:07:20,647 INFO TRACK Satellite -> Verified CertSatellite via Connect New+SetState: TwoBody, i=15, other elements = STK defaults; saved .sa
+2026-10-09 19:07:20,674 INFO TRACK Long Description -> Verified the two logged Connect commands are in the scenario Long Description (saved .sc)
+2026-10-09 19:07:20,704 INFO TRACK Sat model + camera -> Verified cubesat_3u.glb in .sa3; Sat_Camera Simple Conic half angle 30 = 60 deg full (confirmed by AER edge elevation -60)
+2026-10-09 19:07:20,720 INFO TRACK First access + anim time -> Verified first Sat_Camera->Ica access 28 Oct 2011 19:59:17.795; animation clock set to it and saved
+2026-10-09 19:07:20,744 INFO TRACK T8 SatView.bmp -> Verified SatView.bmp via VO SnapFrame at first access, from Sat_Camera toward Ica (frame viewed)
+2026-10-09 19:07:20,768 INFO TRACK T9 SatCamera_to_Ica -> Verified AER quick report: az/el/range per pass; edge rows match independent geometry (el -60, range 350.64 km)
+2026-10-09 19:07:20,784 INFO TRACK T10 comparison -> Verified aircraft camera first (19:17:01.484 vs 19:59:17.795) and longest (81.519 s vs 47.800 s); file T10_AccessComparison.txt
+2026-10-09 19:07:20,806 INFO TRACK Saved -> Verified STK_Cert_RohanPatel_V13.sc + all object/report/video/image files on disk; all file + live checks PASS
+2026-10-09 19:13:16,798 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 19:13:41,385 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:59:17.795"
+2026-10-09 19:13:42,383 INFO CONNECT> VO * ViewFromTo Normal From CentralBody/Earth To Satellite/CertSatellite
+2026-10-09 19:13:42,516 INFO CONNECT> VO * ViewFromTo Parameters Distance To 3
+2026-10-09 19:13:42,670 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 19:13:42,968 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\satv_V1_earth_to_sat_d3"
+2026-10-09 19:13:43,127 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 19:13:43,127 INFO CONNECT> VO * ViewFromTo Normal From Place/Ica To Satellite/CertSatellite
+2026-10-09 19:13:43,143 INFO CONNECT> VO * ViewFromTo Parameters Distance To 3
+2026-10-09 19:13:43,159 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 19:13:43,173 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\satv_V2_ica_to_sat_d3"
+2026-10-09 19:13:43,296 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 19:13:43,296 INFO CONNECT> VO * ViewFromTo Normal From Place/Ica To Satellite/CertSatellite
+2026-10-09 19:13:43,316 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 19:13:43,326 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\satv_V3_ica_to_sat_nodist"
+2026-10-09 19:13:43,458 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 19:14:09,380 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:59:17.795"
+2026-10-09 19:14:09,409 INFO TRACK T8 SatView.bmp -> In progress 
+2026-10-09 19:14:09,409 INFO CONNECT> VO * ViewFromTo Normal From Place/Ica To Satellite/CertSatellite
+2026-10-09 19:14:09,423 INFO CONNECT> VO * ViewFromTo Reset
+2026-10-09 19:14:09,433 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\Desktop\STK\STK_Cert_RohanPatel_V13\SatView"
+2026-10-09 19:14:28,773 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 19:14:28,781 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 19:14:28,787 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:14:28,809 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 19:15:45,131 INFO CONNECT> VO * View Home
+2026-10-09 19:15:46,089 INFO CONNECT> VO * View SetReferenceFrame "CentralBody/Earth Fixed Axes"
+2026-10-09 19:15:46,103 INFO CONNECT> SetAnimation * CurrentTime "28 Oct 2011 19:18:24.505"
+2026-10-09 19:15:46,154 INFO CONNECT> VO * ViewerPosition -13.9735 -76.0303 6418137
+2026-10-09 19:15:46,182 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\obl_o1_W0.30_alt40"
+2026-10-09 19:15:46,358 INFO CONNECT> VO * ViewerPosition -14.2717 -75.7303 6418137
+2026-10-09 19:15:46,375 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\obl_o2_S0.30_alt40"
+2026-10-09 19:15:46,508 INFO CONNECT> VO * ViewerPosition -14.2220 -75.9803 6403137
+2026-10-09 19:15:46,645 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\obl_o3_SW0.25_alt25"
+2026-10-09 19:15:46,906 INFO CONNECT> VO * ViewerPosition -13.9735 -75.4303 6438137
+2026-10-09 19:15:46,987 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\obl_o4_E0.30_alt60"
+2026-10-09 19:15:47,152 INFO CONNECT> VO * ViewerPosition -13.6752 -75.7303 6438137
+2026-10-09 19:15:47,166 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\obl_o5_N0.30_alt60"
+2026-10-09 19:15:47,298 INFO CONNECT> VO * ViewerPosition -14.4705 -75.7303 6408137
+2026-10-09 19:15:47,312 INFO CONNECT> VO * SnapFrame ToFile "C:\Users\rp982\AppData\Local\Temp\claude\C--Users-rp982-Desktop-STK\2a6621bf-a34a-4c0b-99b1-89345663f3a5\scratchpad\obl_o6_S0.50_alt30"
+2026-10-09 19:16:26,692 INFO CONNECT> VO_R * GetReferenceFrame
+2026-10-09 19:16:40,841 INFO CONNECT> TerrainServer_RM / Server
+2026-10-09 19:16:40,846 INFO CONNECT> TerrainServer_RM / Tileset
+2026-10-09 19:16:40,856 INFO CONNECT> TerrainServer_RM / AvailableServers
+2026-10-09 19:16:40,861 INFO CONNECT> TerrainServer_RM / AvailableTilesets
+2026-10-09 19:19:18,021 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 19:19:18,037 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:19:18,047 INFO CONNECT> QuickReport_RM * GetReport "Ica_LatLon"
+2026-10-09 19:19:18,105 INFO CONNECT> QuickReport_RM * GetReport "Aircraft_to_Runway"
+2026-10-09 19:19:18,166 INFO CONNECT> QuickReport_RM * GetReport "SatCamera_to_Ica"
+2026-10-09 19:19:18,429 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 19:19:18,435 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 19:19:36,816 INFO CONNECT> VO_R * StoredViewNames
+2026-10-09 19:19:36,839 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:19:36,847 INFO CONNECT> QuickReport_RM * GetReport "Ica_LatLon"
+2026-10-09 19:19:36,957 INFO TRACK Scenario -> Verified name + 18:54-23:54 in saved .sc and live API
+2026-10-09 19:19:36,981 INFO TRACK Terrain -> Needs verification off in API+.sc, but setter refused (read-only); GUI checkbox not inspected
+2026-10-09 19:19:37,007 INFO TRACK Runway -> Verified 4 vertices in order + ElevationAngle 2.0 in API and Runway.at
+2026-10-09 19:19:37,025 INFO TRACK Places -> Verified lat/lon match in API and saved .plc files
+2026-10-09 19:19:37,045 INFO TRACK T1 Quake Region view -> Verified listed by STK, saved in .sc3, round-trip restore checked by snapshot
+2026-10-09 19:19:37,066 INFO TRACK T2 Ica lighting timeline -> Verified row+Sunlight/Penumbra/Umbra in saved TimelinePrefs.xml; also seen in Timeline View window
+2026-10-09 19:19:37,086 INFO TRACK T3 Ica_LatLon report -> Verified quick report created via toolbar click (QuickReportAdd fails only for the scenario's FIRST quick report); text + saved .sc checked
+2026-10-09 19:19:37,775 INFO CONNECT> GetAnimationData * TimePeriod
+2026-10-09 19:19:37,781 INFO CONNECT> GetAnimationData * Mode
+2026-10-09 19:19:37,790 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:19:37,790 INFO CONNECT> QuickReport_RM * GetReport "Aircraft_to_Runway"
+2026-10-09 19:19:37,941 INFO CONNECT> QuickReport_RM * GetList
+2026-10-09 19:19:37,954 INFO CONNECT> QuickReport_RM * GetReport "SatCamera_to_Ica"
+2026-10-09 19:19:38,155 INFO TRACK Aircraft -> Verified CertAircraft Great Arc in saved .ac
+2026-10-09 19:19:38,174 INFO TRACK Waypoints -> Verified Runway centroid, Paracas, Ica, Runway in order; turn radius 1000 m; alt 14 km (saved .ac)
+2026-10-09 19:19:38,198 INFO TRACK Route style -> Verified white (#ffffff), line width 3 (default 2 + 1) in saved .ac
+2026-10-09 19:19:38,214 INFO TRACK Model+Attitude -> Verified uav.glb in .ac3, AircraftCoordTurn in .ac
+2026-10-09 19:19:38,237 INFO TRACK AC_Camera -> Verified rectangular, 100 x 100 deg full angles in saved .sn
+2026-10-09 19:19:38,254 INFO TRACK T4 FlightSummary.csv -> Verified exact 7 fields (Time in EpSec); data recomputed independently: azimuth/elevation/speed/cross-track/total time all agree
+2026-10-09 19:19:38,286 INFO TRACK T5 Aircraft_to_Runway -> Verified Access quick report CertAircraft->Runway; text shows 18:54:00-19:41:32.226
+2026-10-09 19:19:38,308 INFO TRACK T6 AircraftView.wmv -> Verified 12.05 s (header+decoder 10-15 s); 241 frames 19:16:23-19:20:23 top-down over Ica: CertAircraft label + route U-turn at Ica seen; Ica label hidden by sensor footprint in ~half the frames; animation period+step restored
+2026-10-09 19:19:38,329 INFO TRACK T7 altitude + runway access -> Verified 14.0 km: one unbroken access interval = whole flight (default 10.668 km gave 81.8%)
+2026-10-09 19:19:38,345 INFO TRACK Satellite -> Verified CertSatellite via Connect New+SetState: TwoBody, i=15, other elements = STK defaults; saved .sa
+2026-10-09 19:19:38,369 INFO TRACK Long Description -> Verified the two logged Connect commands are in the scenario Long Description (saved .sc)
+2026-10-09 19:19:38,385 INFO TRACK Sat model + camera -> Verified cubesat_3u.glb in .sa3; Sat_Camera Simple Conic half angle 30 = 60 deg full (confirmed by AER edge elevation -60)
+2026-10-09 19:19:38,413 INFO TRACK First access + anim time -> Verified first Sat_Camera->Ica access 28 Oct 2011 19:59:17.795; animation clock set to it and saved
+2026-10-09 19:19:38,431 INFO TRACK T8 SatView.bmp -> Verified SatView.bmp via VO SnapFrame at first access 19:59:17.795: CertSatellite model + label + Sat_Camera cone visible (camera at Ica; frame viewed)
+2026-10-09 19:19:38,462 INFO TRACK T9 SatCamera_to_Ica -> Verified AER quick report: az/el/range per pass; edge rows match independent geometry (el -60, range 350.64 km)
+2026-10-09 19:19:38,475 INFO TRACK T10 comparison -> Verified aircraft camera first (19:17:01.484 vs 19:59:17.795) and longest (81.519 s vs 47.800 s); file T10_AccessComparison.txt
+2026-10-09 19:19:38,506 INFO TRACK Saved -> Verified STK_Cert_RohanPatel_V13.sc + all object/report/video/image files on disk; all file + live checks PASS
+2026-10-09 19:20:33,950 INFO TRACK Terrain -> Needs verification API False x3, saved .sc No x3, 0 local terrain files, no tilesets available, STK returns 0 m terrain height at Cusco/Huascaran; setter refused; GUI checkbox itself NOT observed
+2026-10-09 19:20:33,962 INFO TRACK Package ZIP -> Verified STK_Cert_RohanPatel_V13.zip: 27 files, integrity OK, extracted copy byte-identical

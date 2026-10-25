@@ -1,0 +1,47 @@
+{
+  "Env": {
+    "status": "Verified",
+    "note": "STK 13.1.0.739 via PySTK+Connect; Pro demo license (8d left); Premium excluded",
+    "at": "17:47:11"
+  },
+  "Scenario": {
+    "status": "Verified",
+    "note": "name + 18:54-23:54 in saved .sc and live API",
+    "at": "18:22:49"
+  },
+  "Terrain": {
+    "status": "Needs verification",
+    "note": "off in API+.sc, but setter refused (read-only); GUI checkbox not inspected",
+    "at": "18:22:49"
+  },
+  "Runway": {
+    "status": "Verified",
+    "note": "4 vertices in order + ElevationAngle 2.0 in API and Runway.at",
+    "at": "18:22:49"
+  },
+  "Places": {
+    "status": "Verified",
+    "note": "lat/lon match in API and saved .plc files",
+    "at": "18:22:49"
+  },
+  "T1 Quake Region view": {
+    "status": "Verified",
+    "note": "listed by STK, saved in .sc3, round-trip restore checked by snapshot",
+    "at": "18:22:49"
+  },
+  "T2 Ica lighting timeline": {
+    "status": "Verified",
+    "note": "row+Sunlight/Penumbra/Umbra in saved TimelinePrefs.xml; also seen in Timeline View window",
+    "at": "18:22:49"
+  },
+  "T3 Ica_LatLon report": {
+    "status": "Verified",
+    "note": "quick report created via toolbar (Connect QuickReportAdd fails in this build); text + saved .sc checked",
+    "at": "18:22:49"
+  },
+  "Saved": {
+    "status": "Verified",
+    "note": "STK_Cert_RohanPatel_V13.sc + object/view/timeline/report files on disk; all file checks PASS",
+    "at": "18:22:49"
+  }
+}

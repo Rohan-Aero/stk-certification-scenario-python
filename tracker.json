@@ -1,0 +1,132 @@
+{
+  "Env": {
+    "status": "Verified",
+    "note": "STK 13.1.0.739 via PySTK+Connect; Pro demo license (8d left); Premium excluded",
+    "at": "17:47:11"
+  },
+  "Scenario": {
+    "status": "Verified",
+    "note": "name + 18:54-23:54 in saved .sc and live API",
+    "at": "19:19:36"
+  },
+  "Terrain": {
+    "status": "Needs verification",
+    "note": "API False x3, saved .sc No x3, 0 local terrain files, no tilesets available, STK returns 0 m terrain height at Cusco/Huascaran; setter refused; GUI checkbox itself NOT observed",
+    "at": "19:20:33"
+  },
+  "Runway": {
+    "status": "Verified",
+    "note": "4 vertices in order + ElevationAngle 2.0 in API and Runway.at",
+    "at": "19:19:37"
+  },
+  "Places": {
+    "status": "Verified",
+    "note": "lat/lon match in API and saved .plc files",
+    "at": "19:19:37"
+  },
+  "T1 Quake Region view": {
+    "status": "Verified",
+    "note": "listed by STK, saved in .sc3, round-trip restore checked by snapshot",
+    "at": "19:19:37"
+  },
+  "T2 Ica lighting timeline": {
+    "status": "Verified",
+    "note": "row+Sunlight/Penumbra/Umbra in saved TimelinePrefs.xml; also seen in Timeline View window",
+    "at": "19:19:37"
+  },
+  "T3 Ica_LatLon report": {
+    "status": "Verified",
+    "note": "quick report created via toolbar click (QuickReportAdd fails only for the scenario's FIRST quick report); text + saved .sc checked",
+    "at": "19:19:37"
+  },
+  "Saved": {
+    "status": "Verified",
+    "note": "STK_Cert_RohanPatel_V13.sc + all object/report/video/image files on disk; all file + live checks PASS",
+    "at": "19:19:38"
+  },
+  "Aircraft": {
+    "status": "Verified",
+    "note": "CertAircraft Great Arc in saved .ac",
+    "at": "19:19:38"
+  },
+  "Waypoints": {
+    "status": "Verified",
+    "note": "Runway centroid, Paracas, Ica, Runway in order; turn radius 1000 m; alt 14 km (saved .ac)",
+    "at": "19:19:38"
+  },
+  "Route style": {
+    "status": "Verified",
+    "note": "white (#ffffff), line width 3 (default 2 + 1) in saved .ac",
+    "at": "19:19:38"
+  },
+  "Model+Attitude": {
+    "status": "Verified",
+    "note": "uav.glb in .ac3, AircraftCoordTurn in .ac",
+    "at": "19:19:38"
+  },
+  "AC_Camera": {
+    "status": "Verified",
+    "note": "rectangular, 100 x 100 deg full angles in saved .sn",
+    "at": "19:19:38"
+  },
+  "T7 altitude + runway access": {
+    "status": "Verified",
+    "note": "14.0 km: one unbroken access interval = whole flight (default 10.668 km gave 81.8%)",
+    "at": "19:19:38"
+  },
+  "T4 FlightSummary.csv": {
+    "status": "Verified",
+    "note": "exact 7 fields (Time in EpSec); data recomputed independently: azimuth/elevation/speed/cross-track/total time all agree",
+    "at": "19:19:38"
+  },
+  "T6 AircraftView.wmv": {
+    "status": "Verified",
+    "note": "12.05 s (header+decoder 10-15 s); 241 frames 19:16:23-19:20:23 top-down over Ica: CertAircraft label + route U-turn at Ica seen; Ica label hidden by sensor footprint in ~half the frames; animation period+step restored",
+    "at": "19:19:38"
+  },
+  "T5 Aircraft_to_Runway": {
+    "status": "Verified",
+    "note": "Access quick report CertAircraft->Runway; text shows 18:54:00-19:41:32.226",
+    "at": "19:19:38"
+  },
+  "Satellite": {
+    "status": "Verified",
+    "note": "CertSatellite via Connect New+SetState: TwoBody, i=15, other elements = STK defaults; saved .sa",
+    "at": "19:19:38"
+  },
+  "Sat model + camera": {
+    "status": "Verified",
+    "note": "cubesat_3u.glb in .sa3; Sat_Camera Simple Conic half angle 30 = 60 deg full (confirmed by AER edge elevation -60)",
+    "at": "19:19:38"
+  },
+  "T8 SatView.bmp": {
+    "status": "Verified",
+    "note": "SatView.bmp via VO SnapFrame at first access 19:59:17.795: CertSatellite model + label + Sat_Camera cone visible (camera at Ica; frame viewed)",
+    "at": "19:19:38"
+  },
+  "T9 SatCamera_to_Ica": {
+    "status": "Verified",
+    "note": "AER quick report: az/el/range per pass; edge rows match independent geometry (el -60, range 350.64 km)",
+    "at": "19:19:38"
+  },
+  "Long Description": {
+    "status": "Verified",
+    "note": "the two logged Connect commands are in the scenario Long Description (saved .sc)",
+    "at": "19:19:38"
+  },
+  "First access + anim time": {
+    "status": "Verified",
+    "note": "first Sat_Camera->Ica access 28 Oct 2011 19:59:17.795; animation clock set to it and saved",
+    "at": "19:19:38"
+  },
+  "T10 comparison": {
+    "status": "Verified",
+    "note": "aircraft camera first (19:17:01.484 vs 19:59:17.795) and longest (81.519 s vs 47.800 s); file T10_AccessComparison.txt",
+    "at": "19:19:38"
+  },
+  "Package ZIP": {
+    "status": "Verified",
+    "note": "STK_Cert_RohanPatel_V13.zip: 27 files, integrity OK, extracted copy byte-identical",
+    "at": "19:20:33"
+  }
+}

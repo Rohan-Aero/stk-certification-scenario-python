@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "13.1.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "STK_Cert_RohanPatel_V13 AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/STK_Cert_RohanPatel_V13" Type = "IntervalList">
+                <Interval Name = "STK_Cert_RohanPatel_V13 AvailabilityIntervals" StartTime = "28 Oct 2011 18:54:00.000" StopTime = "28 Oct 2011 23:54:00.000" />
+            </Row>
+            <Row ClassName = "Place" ComponentName = "LightingIntervals" DisplayName = "Ica LightingIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/STK_Cert_RohanPatel_V13/Place/Ica" Type = "CollectionOfIntervals">
+                <Interval Color = "Black" FontColor = "Gray" Name = "Umbra" Opacity = "0.8" StartTime = "28 Oct 2011 23:01:22.710" StopTime = "28 Oct 2011 23:54:00.000" />
+                <Interval Color = "DarkBlue" FontColor = "Gray" Name = "Penumbra" Opacity = "0.8" StartTime = "28 Oct 2011 22:59:06.105" StopTime = "28 Oct 2011 23:01:22.710" />
+                <Interval Color = "Yellow" FontColor = "Black" Name = "Sunlight" Opacity = "0.6" StartTime = "28 Oct 2011 18:54:00.000" StopTime = "28 Oct 2011 22:59:06.105" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/STK_Cert_RohanPatel_V13" GlobalStartOffset = "0.000000" GlobalStartTime = "28 Oct 2011 18:54:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "28 Oct 2011 23:54:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

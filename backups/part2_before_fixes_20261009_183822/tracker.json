@@ -1,0 +1,92 @@
+{
+  "Env": {
+    "status": "Verified",
+    "note": "STK 13.1.0.739 via PySTK+Connect; Pro demo license (8d left); Premium excluded",
+    "at": "17:47:11"
+  },
+  "Scenario": {
+    "status": "Verified",
+    "note": "name + 18:54-23:54 in saved .sc and live API",
+    "at": "18:35:35"
+  },
+  "Terrain": {
+    "status": "Needs verification",
+    "note": "off in API+.sc, but setter refused (read-only); GUI checkbox not inspected",
+    "at": "18:35:35"
+  },
+  "Runway": {
+    "status": "Verified",
+    "note": "4 vertices in order + ElevationAngle 2.0 in API and Runway.at",
+    "at": "18:35:35"
+  },
+  "Places": {
+    "status": "Verified",
+    "note": "lat/lon match in API and saved .plc files",
+    "at": "18:35:35"
+  },
+  "T1 Quake Region view": {
+    "status": "Verified",
+    "note": "listed by STK, saved in .sc3, round-trip restore checked by snapshot",
+    "at": "18:35:35"
+  },
+  "T2 Ica lighting timeline": {
+    "status": "Verified",
+    "note": "row+Sunlight/Penumbra/Umbra in saved TimelinePrefs.xml; also seen in Timeline View window",
+    "at": "18:35:35"
+  },
+  "T3 Ica_LatLon report": {
+    "status": "Verified",
+    "note": "quick report created via toolbar click (QuickReportAdd fails only for the scenario's FIRST quick report); text + saved .sc checked",
+    "at": "18:35:35"
+  },
+  "Saved": {
+    "status": "Verified",
+    "note": "STK_Cert_RohanPatel_V13.sc + all object/report/video files on disk; all file + live checks PASS",
+    "at": "18:35:37"
+  },
+  "Aircraft": {
+    "status": "Verified",
+    "note": "CertAircraft Great Arc in saved .ac",
+    "at": "18:35:37"
+  },
+  "Waypoints": {
+    "status": "Verified",
+    "note": "Runway centroid, Paracas, Ica, Runway in order; turn radius 1000 m; alt 14 km (saved .ac)",
+    "at": "18:35:37"
+  },
+  "Route style": {
+    "status": "Verified",
+    "note": "white (#ffffff), line width 3 (default 2 + 1) in saved .ac",
+    "at": "18:35:37"
+  },
+  "Model+Attitude": {
+    "status": "Verified",
+    "note": "uav.glb in .ac3, AircraftCoordTurn in .ac",
+    "at": "18:35:37"
+  },
+  "AC_Camera": {
+    "status": "Verified",
+    "note": "rectangular, 100 x 100 deg full angles in saved .sn",
+    "at": "18:35:37"
+  },
+  "T7 altitude + runway access": {
+    "status": "Verified",
+    "note": "14.0 km: one unbroken access interval = whole flight (default 10.668 km gave 81.8%)",
+    "at": "18:35:37"
+  },
+  "T4 FlightSummary.csv": {
+    "status": "Needs verification",
+    "note": "Time/Lat/Lon/Alt/Heading/Speed, 1-min steps; file valid but required field list ASSUMED",
+    "at": "18:35:37"
+  },
+  "T6 AircraftView.wmv": {
+    "status": "Verified",
+    "note": "WMV2 532x380 30fps 9.5 s, frames decoded; animation 18:54-23:54 restored",
+    "at": "18:35:37"
+  },
+  "T5 Aircraft_to_Runway": {
+    "status": "Verified",
+    "note": "Access quick report CertAircraft->Runway; text shows 18:54:00-19:41:32.226",
+    "at": "18:35:37"
+  }
+}
